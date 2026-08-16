@@ -2,14 +2,7 @@
 
 > **Tumaini** means *hope* in Swahili. It is an AI-powered reflective experience designed to help you navigate today's struggles by hearing comforting, customized words of encouragement from a version of you who is 10 years in the future—spoken in **your own cloned voice**.
 
----
 
-## 📸 Message Player Interface Design
-The final playback dashboard is styled with a gorgeous, minimal, and warm editorial aesthetic:
-
-![Tumaini Player Preview](screens/message.png)
-
----
 
 ## ✨ Features
 
