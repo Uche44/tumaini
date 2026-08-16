@@ -1,0 +1,49 @@
+# ─── Project Documentation & Resources ────────────────────────────
+docs/
+screens/
+
+# ─── Python Backend (FastAPI) ──────────────────────────────────────
+backend/.env
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.pytest_cache/
+backend/tumaini.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Generated audio assets
+backend/static/greetings/*
+backend/static/generations/*
+!backend/static/greetings/.gitkeep
+!backend/static/generations/.gitkeep
+
+# ─── Node Frontend (Next.js) ───────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Next.js build logs and caches
+frontend/.pnpm-debug.log*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Frontend environment secrets
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ─── System / IDE Files ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
